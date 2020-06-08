@@ -2,6 +2,8 @@
   <ins
     :data-ad-test="adTest"
     :data-ad-unit="adUnit"
+    :data-ad-height="adHeight"
+    :data-ad-width="adWidth"
     :class="adClass"
     :style="adStyle"
   />
@@ -39,6 +41,16 @@
         type: String,
         required: false,
         default: 'adfit_ad_area'
+      },
+      adHeight: {
+        type: String,
+        required: false,
+        default: ''
+      },
+      adWidth: {
+        type: String,
+        required: false,
+        default: ''
       }
     },
 
