@@ -27,8 +27,8 @@ Vue.use(AdFit.Banner)
 <adfit-banner
     v-on:ad-loaded
     v-on:ad-failed
-    data-ad-test="Y"
-    data-ad-unit="DAN-Xxxxxxxx">
+    ad-test="Y"
+    ad-unit="DAN-Xxxxxxxx">
 </adfit-banner>
 ```
 
@@ -40,8 +40,8 @@ Vue.use(AdFit.Banner)
 |------------------- |------------ |-------------- |--------------------------------------- 	|
 | class              | String      |`adfit_ad_area`|                                          |
 | style              | String      |`display:block`|                                          |
-| data-ad-unit       | String      |               | Attribute `data-ad-unit` from AdFit      |
-| data-ad-test       | String      |     `N`       | Attribute `data-ad-test` from AdFit      |
+| ad-unit            | String      |               | Attribute `data-ad-unit` from AdFit      |
+| ad-test            | String      |     `N`       | Attribute `data-ad-test` from AdFit      |
 
 ### 이벤트
 
